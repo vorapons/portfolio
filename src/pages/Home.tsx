@@ -31,25 +31,25 @@ const Home: React.FC = () => {
             smoothness={true}
           />
           <Suspense fallback={<div>Loading...</div>}>
-            <LazySiteBarLeft />
+            {/* <LazySiteBarLeft /> */}
             <LazyHeaderIntro />
-            <LazySiteBarRight />
+            {/* <LazySiteBarRight /> */}
           </Suspense>
         </header>
         <main className="relative">
           <Suspense fallback={<div>Loading...</div>}>
-            <LazyBannerQuote
+            {/* <LazyBannerQuote
               style={"withBG"}
               quoteIndex={0}
               containerType="quote"
-            />
-            <Divider
+            /> */}
+            {/* <Divider
               thickness="0.25rem"
               direction="outer-right-to-inner-left"
               color="lightblue"
               height="small"
               dividerStyle="solid"
-            />
+            /> */}
 
             <LazyTechStack />
             <Divider
@@ -60,7 +60,7 @@ const Home: React.FC = () => {
               dividerStyle="solid"
             />
 
-            <LazyBannerQuote
+            {/* <LazyBannerQuote
               style={"noBG"}
               quoteIndex={1}
               containerType="statement"
@@ -71,8 +71,8 @@ const Home: React.FC = () => {
               color="lightblue"
               height="extraLarge"
               dividerStyle="solid"
-            />
-            <ProjectSlider />
+            /> */}
+            {/* <ProjectSlider />
             <div className="relative -mb-24 pb-32 -mt-10">
               <LazyRadialGradient
                 opacity={theme === "light" ? "opacity-30" : "opacity-30"}
@@ -97,7 +97,7 @@ const Home: React.FC = () => {
               />
 
               <LazyContact />
-            </div>
+            </div> */}
           </Suspense>
         </main>
         <Footer />

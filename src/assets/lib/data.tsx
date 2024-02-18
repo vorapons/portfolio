@@ -39,19 +39,19 @@ import Privacy from "../../components/Privacy";
 
 export const headerIntroData = {
   title: {
-    de: "Hi, ich bin Alpay",
-    en: "Hi, I'm Alpay",
+    de: "Hi, I'm Vorapon",
+    en: "Hi, I'm Vorapon",
   },
   subtitle: "Fullstack Developer ",
   description: {
-    de: "Ich bin Alpay, ein Fullstack-Entwickler mit dem Ziel, meine Karriere voranzutreiben und an inspirierenden Projekten teilzunehmen. Hier präsentiere ich meine Arbeiten und meine Leidenschaft für die Webentwicklung. Lassen Sie uns gemeinsam digitale Lösungen gestalten und die Zukunft formen!",
-    en: "I'm Alpay, a fullstack developer with the goal of advancing my career and participating in inspiring projects. Here I present my work and my passion for web development. Let's shape digital solutions together and shape the future!",
+    de: " ",
+    en: " ",
   },
   buttons: [
     {
       name: "Contact",
       label: {
-        de: "Kontaktiere mich",
+        de: "Contact me",
         en: "Contact me",
       },
       icon: FiMail,
@@ -60,7 +60,7 @@ export const headerIntroData = {
     {
       name: "Projects",
       label: {
-        de: "Meine Projekte",
+        de: "My Projects",
         en: "My Projects",
       },
       icon: FiGithub,
@@ -393,7 +393,7 @@ export const aboutMeData = {
 
 export const contactData = {
   title: {
-    de: "Kontakt",
+    de: "Contact",
     en: "Contact",
   },
   description: {
